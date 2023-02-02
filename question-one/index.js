@@ -90,7 +90,7 @@ const handleSubmitFormCreate = () => {
       body: body,
     };
 
-    createUser(formData, renderUser(storedUser));
+    createUser(formData);
   };
 };
 handleSubmitFormCreate();
